@@ -1,10 +1,14 @@
 # reactive-selectize
 
+**Here be dragons.** While basic functionality is implemented and working,
+not all features of selectize.js are currently supported by the underlying
+helper library `mologie:reactive-selectize`. Proper documentation and tests
+are missing. However, if you are familiar with AutoForm and selectize.js,
+you may already find this project useful. Pull requests and issue reports
+are welcome.
+
 Selectize.js input type for AutoForm using `mologie:reactive-selectize`.
 
-This package integrates selectize.js controls with Meteor. It provides
-a wrapper class which takes care of synchronizing the select field's
-options with a data source provided when constructing the wrapper.
 
 ## Example
 
