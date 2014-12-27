@@ -37,7 +37,7 @@ Template.body.helpers = ->
       options: getTagList
       valueField: 'value'
       labelField: 'value'
-      multiple: true
+      maxItems: null
       create: true
       createOnBlur: true
       persist: false

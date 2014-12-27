@@ -30,11 +30,7 @@ AutoForm.addInputType "selectize",
 		config = _.extend defaults, context.atts.selectize
 		
 		# Adjust context
-		context.atts.multiple = true if config.multiple
 		delete context.atts.selectize
-		
-		# Remove configuration extensions
-		delete config.multiple
 		
 		# Create controller
 		context.controller = new ReactiveSelectizeController config
