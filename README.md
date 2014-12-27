@@ -31,7 +31,7 @@ getTagList = ->
   tags = _.union.apply null, Posts.find().map((post) -> post.tags)
   _.map tags, -> value: tags
 
-Tempalte.body.helpers = ->
+Template.body.helpers = ->
   postSchema: -> PostSchema
   tagSelectize: ->
       options: getTagList
