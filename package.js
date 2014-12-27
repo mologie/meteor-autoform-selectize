@@ -2,7 +2,7 @@ Package.describe({
 	name:    'mologie:autoform-selectize',
 	summary: 'Selectize.js input type for AutoForm using mologie:reactive-selectize',
 	version: '0.0.1',
-	git:     'TODO'
+	git:     'https://github.com/mologie/meteor-autoform-selectize'
 });
 
 var clientDependencies = [
@@ -10,8 +10,8 @@ var clientDependencies = [
 	'jquery',
 	'underscore',
 	'templating',
-	'mologie:reactive-selectize',
-	'aldeed:autoform'
+	'mologie:reactive-selectize@0.0.0',
+	'aldeed:autoform@4.0.0'
 ];
 
 var clientFiles = [
