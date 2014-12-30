@@ -44,7 +44,7 @@ PostSchema = new SimpleSchema
 
 getTagList = ->
   tags = _.union.apply null, Posts.find().map((post) -> post.tags)
-  _.map tags, -> value: tags
+  _.map tags, (tag) -> value: tag
 
 Template.body.helpers = ->
   postSchema: -> PostSchema
