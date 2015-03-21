@@ -11,7 +11,7 @@ var clientDependencies = [
 	'underscore',
 	'templating',
 	'mologie:reactive-selectize@0.1.4',
-	'aldeed:autoform@4.0.0'
+	'aldeed:autoform@4.0.0||5.0.0'
 ];
 
 var clientFiles = [
